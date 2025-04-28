@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\testV3\\v3\\test2Master\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|c:\\users\\orange\\desktop\\testv3\\v3\\test2master\\test2master.client\\src\\app\\seller\\seller-dashboard\\seller-dashboard.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|solutionrelative:test2master.client\\src\\app\\seller\\seller-dashboard\\seller-dashboard.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|c:\\users\\orange\\desktop\\testv3\\v3\\test2master\\test2master.client\\src\\app\\seller\\seller-dashboard\\seller-dashboard.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|solutionrelative:test2master.client\\src\\app\\seller\\seller-dashboard\\seller-dashboard.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|c:\\users\\orange\\desktop\\testv3\\v3\\test2master\\test2master.client\\src\\app\\user\\profile\\profile.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|solutionrelative:test2master.client\\src\\app\\user\\profile\\profile.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|c:\\users\\orange\\desktop\\testv3\\v3\\test2master\\test2master.client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|solutionrelative:test2master.client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|c:\\users\\orange\\desktop\\testv3\\v3\\test2master\\test2master.client\\src\\app\\user\\profile\\profile.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|solutionrelative:test2master.client\\src\\app\\user\\profile\\profile.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|c:\\users\\orange\\desktop\\testv3\\v3\\test2master\\test2master.client\\src\\app\\app.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|solutionrelative:test2master.client\\src\\app\\app.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|c:\\users\\orange\\desktop\\testv3\\v3\\test2master\\test2master.client\\src\\app\\shared\\header\\header.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{87BB4ACC-9911-1FAE-5815-B6764D6434C9}|test2master.client\\test2master.client.esproj|solutionrelative:test2master.client\\src\\app\\shared\\header\\header.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "seller-dashboard.component.html",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\testV3\\v3\\test2Master\\test2master.client\\src\\app\\seller\\seller-dashboard\\seller-dashboard.component.html",
+              "RelativeDocumentMoniker": "test2master.client\\src\\app\\seller\\seller-dashboard\\seller-dashboard.component.html",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\testV3\\v3\\test2Master\\test2master.client\\src\\app\\seller\\seller-dashboard\\seller-dashboard.component.html",
+              "RelativeToolTip": "test2master.client\\src\\app\\seller\\seller-dashboard\\seller-dashboard.component.html",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAIYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-26T16:04:33.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "seller-dashboard.component.ts",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\testV3\\v3\\test2Master\\test2master.client\\src\\app\\seller\\seller-dashboard\\seller-dashboard.component.ts",
+              "RelativeDocumentMoniker": "test2master.client\\src\\app\\seller\\seller-dashboard\\seller-dashboard.component.ts",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\testV3\\v3\\test2Master\\test2master.client\\src\\app\\seller\\seller-dashboard\\seller-dashboard.component.ts",
+              "RelativeToolTip": "test2master.client\\src\\app\\seller\\seller-dashboard\\seller-dashboard.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-26T16:30:49.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "profile.component.ts",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\testV3\\v3\\test2Master\\test2master.client\\src\\app\\user\\profile\\profile.component.ts",
+              "RelativeDocumentMoniker": "test2master.client\\src\\app\\user\\profile\\profile.component.ts",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\testV3\\v3\\test2Master\\test2master.client\\src\\app\\user\\profile\\profile.component.ts",
+              "RelativeToolTip": "test2master.client\\src\\app\\user\\profile\\profile.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-26T13:05:43.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "app-routing.module.ts",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\testV3\\v3\\test2Master\\test2master.client\\src\\app\\app-routing.module.ts",
+              "RelativeDocumentMoniker": "test2master.client\\src\\app\\app-routing.module.ts",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\testV3\\v3\\test2Master\\test2master.client\\src\\app\\app-routing.module.ts",
+              "RelativeToolTip": "test2master.client\\src\\app\\app-routing.module.ts",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-26T13:04:55.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "profile.component.html",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\testV3\\v3\\test2Master\\test2master.client\\src\\app\\user\\profile\\profile.component.html",
+              "RelativeDocumentMoniker": "test2master.client\\src\\app\\user\\profile\\profile.component.html",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\testV3\\v3\\test2Master\\test2master.client\\src\\app\\user\\profile\\profile.component.html",
+              "RelativeToolTip": "test2master.client\\src\\app\\user\\profile\\profile.component.html",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACAAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-26T13:04:25.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "app.component.css",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\testV3\\v3\\test2Master\\test2master.client\\src\\app\\app.component.css",
+              "RelativeDocumentMoniker": "test2master.client\\src\\app\\app.component.css",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\testV3\\v3\\test2Master\\test2master.client\\src\\app\\app.component.css",
+              "RelativeToolTip": "test2master.client\\src\\app\\app.component.css",
+              "ViewState": "AgIAAHMAAAAAAAAAAADwv4sAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-26T10:45:59.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "header.component.css",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\testV3\\v3\\test2Master\\test2master.client\\src\\app\\Shared\\header\\header.component.css",
+              "RelativeDocumentMoniker": "test2master.client\\src\\app\\Shared\\header\\header.component.css",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\testV3\\v3\\test2Master\\test2master.client\\src\\app\\Shared\\header\\header.component.css",
+              "RelativeToolTip": "test2master.client\\src\\app\\Shared\\header\\header.component.css",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAE8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-26T10:26:22.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

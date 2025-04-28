@@ -1,0 +1,68 @@
+<div class="container my-5">
+  <h2 class="mb-4">سلة التسوق</h2>
+
+  <!-- Error Message Display -->
+  <div *ngIf="errorMessage" class="alert alert-danger alert-dismissible fade show" role="alert">
+    <strong>خطأ:</strong> {{ errorMessage }}
+    <button type="button" class="btn-close" (click)="errorMessage = null" aria-label="Close"></button>
+  </div>
+
+  <div *ngIf="(cartItems$ | async)?.length; else emptyCart">
+    <div class="table-responsive">
+      <table class="table table-bordered text-center align-middle">
+        <thead class="table-light">
+          <tr>
+            <th>الصورة</th>
+            <th>المنتج</th>
+            <th>الكمية</th>
+            <th>السعر</th>
+            <th>الإجمالي</th>
+            <th>حذف</th>
+          </tr>
+        </thead>
+        <tbody>
+          <ng-container *ngIf="cartItems$ | async as cartItems">
+            <tr *ngFor="let item of cartItems">
+              <td>
+                <img [src]="item.imageUrl || 'assets/images/placeholder.png'" alt="{{ item.productName }}" width="60" />
+              </td>
+              <td>{{ item.productName }}</td>
+              <td>
+                <input type="number" class="form-control form-control-sm quantity-input" [value]="item.quantity"
+                  (change)="onQuantityChange(item.productId, $event)" min="1" />
+              </td>
+              <td>{{ item.price | currency:'JOD':'symbol' }}</td>
+              <td>{{ item.price * item.quantity | currency:'JOD':'symbol' }}</td>
+              <td>
+                <button class="btn btn-sm btn-danger" (click)="removeItem(item.productId)">
+                  <i class="fas fa-trash"></i>
+                </button>
+              </td>
+            </tr>
+          </ng-container>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Cart Totals and Actions -->
+    <div class="d-flex justify-content-between align-items-center mt-4 flex-wrap">
+      <!-- Clear Cart Button -->
+      <button class="btn btn-outline-danger mb-2 mb-md-0" (click)="clearCart()">تفريغ السلة</button>
+
+      <!-- Cart Total -->
+      <h4 class="mb-2 mb-md-0">المجموع: {{ cartTotal$ | async | currency:'JOD':'symbol' }}</h4>
+
+      <!-- Proceed to Checkout Button -->
+      <button class="btn btn-success btn-lg" routerLink="/checkout">
+        الانتقال إلى الدفع <i class="fas fa-arrow-left ms-2"></i>
+      </button>
+    </div>
+
+  </div>
+
+  <ng-template #emptyCart>
+    <div class="alert alert-info text-center">
+      سلة التسوق فارغة حالياً 🛒
+    </div>
+  </ng-template>
+</div>

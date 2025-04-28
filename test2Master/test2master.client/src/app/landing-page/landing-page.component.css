@@ -1,0 +1,212 @@
+/* General Landing Page Styles */
+.landing-container {
+    font-family: 'Cairo', sans-serif;
+    /* Ensure Cairo font is applied */
+}
+
+/* Hero Section Carousel */
+.hero-section-carousel .carousel-item {
+    min-height: 70vh;
+    /* Or match your desired hero height */
+    background-color: #333;
+    /* Fallback background */
+}
+
+.hero-section-carousel .carousel-item img {
+    object-fit: cover;
+    /* Ensure images cover the area */
+    min-height: 70vh;
+    filter: brightness(0.5);
+    /* Darken images slightly */
+}
+
+.hero-section-carousel .carousel-caption {
+    /* Position caption more centrally if needed */
+    bottom: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+}
+
+.hero-section-carousel .carousel-caption h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-section-carousel .carousel-caption p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-section-carousel .carousel-caption .btn {
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0.5rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.hero-section-carousel .carousel-caption .btn:hover {
+    transform: translateY(-3px);
+}
+
+/* Add basic animations using Animate.css classes (requires Animate.css) */
+/* You can add Animate.css via CDN in index.html or npm install animate.css */
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.fadeInDown {
+    animation-name: fadeInDown;
+}
+
+.fadeInUp {
+    animation-name: fadeInUp;
+    animation-delay: 0.3s;
+    /* Delay paragraph animation */
+}
+
+.zoomIn {
+    animation-name: zoomIn;
+    animation-delay: 0.6s;
+    /* Delay button animation */
+}
+
+/* Keyframes (if not using Animate.css library) - Example */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -40px, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 40px, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+/* Features Section */
+.features-section {
+    /* background-color: #f8f9fa; */
+    /* Keep light background */
+}
+
+.feature-card {
+    background-color: #fff;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+    border: none;
+    /* Remove default border */
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon i {
+    /* color: var(--bs-primary); */
+    /* Color will be set in HTML */
+}
+
+/* How It Works Section */
+.how-it-works-section {
+    background-color: #fff;
+    /* Changed background */
+}
+
+.step-card {
+    /* background-color: #fff; */
+    /* Removed background color */
+    border-radius: 8px;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); */
+    /* Removed shadow */
+    height: 100%;
+    border: none;
+    /* Remove default border */
+    transition: transform 0.3s ease;
+}
+
+.step-card:hover {
+    transform: scale(1.03);
+}
+
+.step-icon {
+    color: var(--primary-color, #4CAF50);
+    margin-bottom: 1rem;
+}
+
+.step-icon i {
+    /* Size controlled in HTML */
+}
+
+/* .step-number { ... keep if using old style ... } */
+
+/* CTA Section */
+.cta-section {
+    /* background-color: #e9ecef; */
+    /* Will use bg-success class */
+    background-size: cover;
+    /* Optional background image */
+    background-position: center;
+}
+
+/* --- Scroll Animation Setup --- */
+/* Elements to animate */
+.features-section .feature-card,
+.how-it-works-section .step-card,
+.cta-section h2,
+.cta-section p,
+.cta-section .btn {
+    /* opacity: 0; */
+    /* Start hidden */
+    /* transform: translateY(50px); */
+    /* Start slightly lower */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* Class added when element is in view */
+.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ----------------------------- */
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero-section-carousel .carousel-caption h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-section-carousel .carousel-caption p {
+        font-size: 1.1rem;
+    }
+
+    /* Add other responsive styles as needed */
+}
